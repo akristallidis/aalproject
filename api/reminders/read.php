@@ -51,9 +51,11 @@
             }
             
             $_SESSION['reminders_table'] = $results;
+            $_SESSION['notifications_table'] = $rslts;
         }
         
         $_SESSION['reminders_rows_num'] = $num;
+        $_SESSION['notifications_num'] = $num;
         
     }
     
