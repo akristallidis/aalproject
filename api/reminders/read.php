@@ -45,6 +45,10 @@
                 $results[$i][5] = $repeated;
                 $results[$i][6] = $user_id;
                 
+                $rslts[$i][0] = $name;
+                $rslts[$i][1] = $alarm_date;
+                $rslts[$i][2] = $alarm_time;
+                $rslts[$i][3] = $repeated;
                 
                 $i++;
                 
